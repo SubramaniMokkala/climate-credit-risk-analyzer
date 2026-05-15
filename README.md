@@ -34,24 +34,27 @@ The UN's *Financing for Sustainable Development Report 2026* warns that developi
 ---
 
 ## 🏗️ Architecture
+
+```
 User Input (Company / Sector)
-↓
+        ↓
 Data Pipeline
-├── S&P 500 Companies + Financials
-├── ESG Risk Ratings
-├── ND-GAIN Country Index 2026
-└── Feature Engineering (14 features)
-↓
+  ├── S&P 500 Companies + Financials
+  ├── ESG Risk Ratings
+  ├── ND-GAIN Country Index 2026
+  └── Feature Engineering (14 features)
+        ↓
 XGBoost Risk Scoring Model
-├── Physical Risk Score
-├── Transition Risk Score
-└── Climate Credit Risk Tier (Low / Medium / High / Critical)
-↓
+  ├── Physical Risk Score
+  ├── Transition Risk Score
+  └── Climate Credit Risk Tier (Low / Medium / High / Critical)
+        ↓
 Gemma 4 (via Google AI Studio API)
-├── Professional analyst report generation
-└── Interactive Q&A chat interface
-↓
+  ├── Professional analyst report generation
+  └── Interactive Q&A chat interface
+        ↓
 Streamlit App (Deployed on HF Spaces)
+```
 
 ---
 
