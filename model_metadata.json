@@ -1,0 +1,27 @@
+{
+    "feature_cols": [
+        "sector_encoded",
+        "gain_score",
+        "vulnerability_score",
+        "readiness_score",
+        "Marketcap",
+        "Ebitda",
+        "Revenuegrowth",
+        "climate_gap",
+        "high_carbon_sector",
+        "profitability_ratio"
+    ],
+    "tier_mapping": {
+        "Low": 0,
+        "Medium": 1,
+        "High": 2,
+        "Critical": 3
+    },
+    "risk_mapping": {
+        "Negligible": 0,
+        "Low": 1,
+        "Medium": 2,
+        "High": 3,
+        "Severe": 4
+    }
+}
