@@ -115,6 +115,7 @@ This tool directly addresses the **Global Resilience** track by:
 ---
 
 ## 📁 Repository Structure
+```
 climate-credit-risk-analyzer/
 ├── app.py                          # Main Streamlit application
 ├── climate_credit_risk_model.pkl   # Trained XGBoost model
@@ -123,7 +124,7 @@ climate-credit-risk-analyzer/
 ├── requirements.txt                # Python dependencies
 ├── Dockerfile                      # HF Spaces deployment config
 └── README.md                       # This file
-
+```
 ---
 
 ## 🚀 Run Locally
