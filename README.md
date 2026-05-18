@@ -1,4 +1,4 @@
-# 🌍 Climate Credit Risk Analyzer
+# 🌍 CarbonLens
 
 > **Gemma 4 Good Hackathon Submission** | Global Resilience Track
 
@@ -25,7 +25,7 @@ The UN's *Financing for Sustainable Development Report 2026* warns that developi
 
 ## 💡 Solution
 
-**Climate Credit Risk Analyzer** combines machine learning and Gemma 4 to provide:
+**CarbonLens** combines machine learning and Gemma 4 to provide:
 
 1. **📊 Risk Scoring** — XGBoost model scores any S&P 500 company across 5 climate risk dimensions
 2. **📄 AI Report Generation** — Gemma 4 generates a professional 3-paragraph analyst memo
